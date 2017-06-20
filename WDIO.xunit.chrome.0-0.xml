@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="general_magento_test" timestamp="2017-06-20T18:30:34" time="10.792" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="21dc2b6ba771ddb0481200b56b0b9ff4"/>
+      <property name="suiteName" value="General Magento Test"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value=".\test\GWS.js"/>
+    </properties>
+    <testcase classname="chrome.general_magento_test" name="correct_title_watch" time="9.57">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/6aecd8d4-53c2-456d-af01-f136a5ffa2d5/url - {"url":"https://grandwesternsteaks.com/"}
+RESULT: {"state":"success","sessionId":"6aecd8d4-53c2-456d-af01-f136a5ffa2d5","hCode":592153154,"value":null,"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/6aecd8d4-53c2-456d-af01-f136a5ffa2d5/title - {}
+RESULT: {"state":"success","sessionId":"6aecd8d4-53c2-456d-af01-f136a5ffa2d5","hCode":405447547,"value":"Grand Western Steaks Grand Western Steaks - The Steak of Steaks: Buy USDA Prime, Wagyu, Grass Fed, and Angus Beef","class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: DELETE http://127.0.0.1:4444/wd/hub/session/6aecd8d4-53c2-456d-af01-f136a5ffa2d5 - {}
+RESULT: {"state":"success","sessionId":"6aecd8d4-53c2-456d-af01-f136a5ffa2d5","hCode":1601310267,"value":null,"class":"org.openqa.selenium.remote.Response","status":0}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
