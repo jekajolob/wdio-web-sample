@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="general_magento_test" timestamp="2017-06-22T14:43:46" time="5.682" tests="1" failures="0" errors="1" skipped="0">
+  <testsuite name="general_magento_test" timestamp="2017-06-22T15:02:00" time="9.189" tests="1" failures="0" errors="1" skipped="0">
     <properties>
       <property name="specId" value="21dc2b6ba771ddb0481200b56b0b9ff4"/>
       <property name="suiteName" value="General Magento Test"/>
-      <property name="capabilities" value="chrome"/>
+      <property name="capabilities" value="chrome.59_0.windows10"/>
       <property name="file" value=".\test\GWS.js"/>
     </properties>
-    <testcase classname="chrome.general_magento_test" name="correct_title_watch" time="4.988">
+    <testcase classname="chrome.59_0.windows10.general_magento_test" name="correct_title_watch" time="8.488">
       <error message="'Grand Western Steaks Grand Western Steaks - The Steak of Steaks: Buy USDA Prime, Wagyu, Grass Fed, and Angus Beef' == 'Grand Western Steaks Grand Western Steaks - The Steak of Steaks: Buy USDA Prime, Wagyu, Grass Fed, and Angus Beef-test'"/>
       <system-out>
         <![CDATA[
-COMMAND: POST https://ondemand.saucelabs.com:443/wd/hub/session/3e626c7fbfa24614adbdc4fa47b12d5e/url - {"url":"https://grandwesternsteaks.com/"}
-RESULT: {"status":0,"sessionId":"3e626c7fbfa24614adbdc4fa47b12d5e","value":null}
-COMMAND: GET https://ondemand.saucelabs.com:443/wd/hub/session/3e626c7fbfa24614adbdc4fa47b12d5e/title - {}
-RESULT: {"status":0,"sessionId":"3e626c7fbfa24614adbdc4fa47b12d5e","value":"Grand Western Steaks Grand Western Steaks - The Steak of Steaks: Buy USDA Prime, Wagyu, Grass Fed, and Angus Beef"}
-COMMAND: DELETE https://ondemand.saucelabs.com:443/wd/hub/session/3e626c7fbfa24614adbdc4fa47b12d5e - {}
-RESULT: {"status":0,"sessionId":"3e626c7fbfa24614adbdc4fa47b12d5e","value":""}
+COMMAND: POST https://ondemand.saucelabs.com:443/wd/hub/session/5f504ffcfdc44c75bf5aeb0c722f2b60/execute - {"script":"sauce:context=General Magento Test - Correct Title! @watch","args":[]}
+RESULT: {"status":0,"sessionId":"5f504ffcfdc44c75bf5aeb0c722f2b60","value":""}
+COMMAND: POST https://ondemand.saucelabs.com:443/wd/hub/session/5f504ffcfdc44c75bf5aeb0c722f2b60/url - {"url":"https://grandwesternsteaks.com/"}
+RESULT: {"status":0,"sessionId":"5f504ffcfdc44c75bf5aeb0c722f2b60","value":null}
+COMMAND: GET https://ondemand.saucelabs.com:443/wd/hub/session/5f504ffcfdc44c75bf5aeb0c722f2b60/title - {}
+RESULT: {"status":0,"sessionId":"5f504ffcfdc44c75bf5aeb0c722f2b60","value":"Grand Western Steaks Grand Western Steaks - The Steak of Steaks: Buy USDA Prime, Wagyu, Grass Fed, and Angus Beef"}
+COMMAND: DELETE https://ondemand.saucelabs.com:443/wd/hub/session/5f504ffcfdc44c75bf5aeb0c722f2b60 - {}
+RESULT: {"status":0,"sessionId":"5f504ffcfdc44c75bf5aeb0c722f2b60","value":""}
 ]]>
       </system-out>
       <system-err>

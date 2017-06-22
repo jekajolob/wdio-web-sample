@@ -1,5 +1,6 @@
 exports.config = {
 
+
     user: process.env.SAUCE_USERNAME,
     key: process.env.SAUCE_ACCESS_KEY,
     //
@@ -46,6 +47,9 @@ exports.config = {
         // 5 instances get started at a time.
         //maxInstances: 5,
         //
+
+        //{browserName: 'MicrosoftEdge', platform: 'Windows 10', version: '14.14393', screenResolution:'1920x1200'},
+        //{browserName: 'chrome', platform: 'Windows 10', version: '59.0', screenResolution:'1920x1200'},
         {browserName: 'chrome'},
         {browserName: 'firefox'},
     ],
@@ -109,7 +113,7 @@ exports.config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    services: ['selenium-standalone'],
+    services: ['sauce','selenium-standalone'],
     //
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber

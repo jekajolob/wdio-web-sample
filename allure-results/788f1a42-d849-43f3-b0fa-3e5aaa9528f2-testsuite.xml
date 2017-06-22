@@ -1,0 +1,71 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1498132894232' stop='1498132909091'>
+    <name>General Magento Test</name>
+    <title>General Magento Test</title>
+    <test-cases>
+        <test-case start='1498132894233' status='passed' stop='1498132894897'>
+            <name>"before all" hook</name>
+            <title>"before all" hook</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1498132894238' status='passed' stop='1498132894893'>
+                    <name>POST /wd/hub/session/d49cc7ae856348d992f55bdcd6fdd857/window/current/maximize</name>
+                    <title>POST /wd/hub/session/d49cc7ae856348d992f55bdcd6fdd857/window/current/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='fad80342-d738-4c84-9a25-163484e26a52-attachment.json' type='application/json' size='192'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1498132894897' status='failed' stop='1498132909090'>
+            <name>Correct Title! @watch</name>
+            <title>Correct Title! @watch</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"MicrosoftEdge","platform":"Windows 10","version":"14.14393","screenResolution":"1920x1200"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["c:\\webdriverIO\\wdio-web-sample\\test\\GWS.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1498132894900' status='passed' stop='1498132895533'>
+                    <name>POST /wd/hub/session/d49cc7ae856348d992f55bdcd6fdd857/execute</name>
+                    <title>POST /wd/hub/session/d49cc7ae856348d992f55bdcd6fdd857/execute</title>
+                    <attachments>
+                        <attachment title='Request' source='acb29cc9-8aa6-4633-b481-199ad2c4f10a-attachment.json' type='application/json' size='94'/>
+                        <attachment title='Response' source='0bd414e0-98fe-44c5-aa46-394c49466fc7-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1498132895538' status='passed' stop='1498132908389'>
+                    <name>POST /wd/hub/session/d49cc7ae856348d992f55bdcd6fdd857/url</name>
+                    <title>POST /wd/hub/session/d49cc7ae856348d992f55bdcd6fdd857/url</title>
+                    <attachments>
+                        <attachment title='Request' source='5a9f52dd-c6db-4667-9527-2d996b5a49ad-attachment.json' type='application/json' size='48'/>
+                        <attachment title='Response' source='82c94e30-c029-4a52-926d-9e1deb774990-attachment.json' type='application/json' size='192'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1498132908398' status='passed' stop='1498132909081'>
+                    <name>GET /wd/hub/session/d49cc7ae856348d992f55bdcd6fdd857/title</name>
+                    <title>GET /wd/hub/session/d49cc7ae856348d992f55bdcd6fdd857/title</title>
+                    <attachments>
+                        <attachment title='Response' source='1914e662-86a2-4643-9205-eb2b1ce9777d-attachment.json' type='application/json' size='303'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>'Grand Western Steaks Grand Western Steaks - The Steak of Steaks: Buy USDA Prime, Wagyu, Grass Fed, and Angus Beef' == 'Grand Western Steaks Grand Western Steaks - The Steak of Steaks: Buy USDA Prime, Wagyu, Grass Fed, and Angus Beef-test'</message>
+                <stack-trace>AssertionError: 'Grand Western Steaks Grand Western Steaks - The Steak of Steaks: Buy USDA Prime, Wagyu, Grass Fed, and Angus Beef' == 'Grand Western Steaks Grand Western Steaks - The Steak of Steaks: Buy USDA Prime, Wagyu, Grass Fed, and Angus Beef-test'
+                    at Context.&lt;anonymous> (c:\webdriverIO\wdio-web-sample\test\GWS.js:14:16)
+                    at c:\webdriverIO\wdio-web-sample\node_modules\wdio-sync\build\index.js:584:26
+                    at Promise.F (c:\webdriverIO\wdio-web-sample\node_modules\core-js\library\modules\_export.js:35:28)
+                    at Context.executeSync (c:\webdriverIO\wdio-web-sample\node_modules\wdio-sync\build\index.js:582:12)
+                    at c:\webdriverIO\wdio-web-sample\node_modules\wdio-sync\build\index.js:753:42</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="general_magento_test" timestamp="2017-06-22T15:01:34" time="14.859" tests="1" failures="0" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="21dc2b6ba771ddb0481200b56b0b9ff4"/>
+      <property name="suiteName" value="General Magento Test"/>
+      <property name="capabilities" value="microsoftedge.14_14393.windows10"/>
+      <property name="file" value=".\test\GWS.js"/>
+    </properties>
+    <testcase classname="microsoftedge.14_14393.windows10.general_magento_test" name="correct_title_watch" time="14.194">
+      <error message="'Grand Western Steaks Grand Western Steaks - The Steak of Steaks: Buy USDA Prime, Wagyu, Grass Fed, and Angus Beef' == 'Grand Western Steaks Grand Western Steaks - The Steak of Steaks: Buy USDA Prime, Wagyu, Grass Fed, and Angus Beef-test'"/>
+      <system-out>
+        <![CDATA[
+COMMAND: POST https://ondemand.saucelabs.com:443/wd/hub/session/d49cc7ae856348d992f55bdcd6fdd857/execute - {"script":"sauce:context=General Magento Test - Correct Title! @watch","args":[]}
+RESULT: {"status":0,"sessionId":"d49cc7ae856348d992f55bdcd6fdd857","value":""}
+COMMAND: POST https://ondemand.saucelabs.com:443/wd/hub/session/d49cc7ae856348d992f55bdcd6fdd857/url - {"url":"https://grandwesternsteaks.com/"}
+RESULT: {"status":0,"sessionId":"d49cc7ae856348d992f55bdcd6fdd857","value":null,"state":"success","hCode":1928108187,"class":"org.openqa.selenium.remote.Response"}
+COMMAND: GET https://ondemand.saucelabs.com:443/wd/hub/session/d49cc7ae856348d992f55bdcd6fdd857/title - {}
+RESULT: {"status":0,"sessionId":"d49cc7ae856348d992f55bdcd6fdd857","value":"Grand Western Steaks Grand Western Steaks - The Steak of Steaks: Buy USDA Prime, Wagyu, Grass Fed, and Angus Beef","state":"success","hCode":1213180825,"class":"org.openqa.selenium.remote.Response"}
+COMMAND: DELETE https://ondemand.saucelabs.com:443/wd/hub/session/d49cc7ae856348d992f55bdcd6fdd857 - {}
+RESULT: {"status":0,"sessionId":"d49cc7ae856348d992f55bdcd6fdd857","value":""}
+]]>
+      </system-out>
+      <system-err>
+        <![CDATA[
+AssertionError: 'Grand Western Steaks Grand Western Steaks - The Steak of Steaks: Buy USDA Prime, Wagyu, Grass Fed, and Angus Beef' == 'Grand Western Steaks Grand Western Steaks - The Steak of Steaks: Buy USDA Prime, Wagyu, Grass Fed, and Angus Beef-test'
+    at Context.<anonymous> (c:\webdriverIO\wdio-web-sample\test\GWS.js:14:16)
+    at c:\webdriverIO\wdio-web-sample\node_modules\wdio-sync\build\index.js:584:26
+    at Promise.F (c:\webdriverIO\wdio-web-sample\node_modules\core-js\library\modules\_export.js:35:28)
+    at Context.executeSync (c:\webdriverIO\wdio-web-sample\node_modules\wdio-sync\build\index.js:582:12)
+    at c:\webdriverIO\wdio-web-sample\node_modules\wdio-sync\build\index.js:753:42
+]]>
+      </system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

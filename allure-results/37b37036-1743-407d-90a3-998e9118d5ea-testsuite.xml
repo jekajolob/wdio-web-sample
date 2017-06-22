@@ -1,0 +1,62 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1498132026539' stop='1498132034642'>
+    <name>General Magento Test</name>
+    <title>General Magento Test</title>
+    <test-cases>
+        <test-case start='1498132026540' status='passed' stop='1498132027187'>
+            <name>"before all" hook</name>
+            <title>"before all" hook</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1498132026547' status='passed' stop='1498132027182'>
+                    <name>POST /wd/hub/session/324dbc2b3cdc46d68a33b1a8e26c30c4/window/current/maximize</name>
+                    <title>POST /wd/hub/session/324dbc2b3cdc46d68a33b1a8e26c30c4/window/current/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='02e9b2ca-3bd4-49e2-96b2-42a49a1e6633-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1498132027187' status='failed' stop='1498132034642'>
+            <name>Correct Title! @watch</name>
+            <title>Correct Title! @watch</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","platform":"Windows 10","version":"59.0","screenResolution":"1920x1200"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["c:\\webdriverIO\\wdio-web-sample\\test\\GWS.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1498132027190' status='passed' stop='1498132033896'>
+                    <name>POST /wd/hub/session/324dbc2b3cdc46d68a33b1a8e26c30c4/url</name>
+                    <title>POST /wd/hub/session/324dbc2b3cdc46d68a33b1a8e26c30c4/url</title>
+                    <attachments>
+                        <attachment title='Request' source='1eba4590-84a2-4300-bad0-7ab264731481-attachment.json' type='application/json' size='48'/>
+                        <attachment title='Response' source='b2de832b-a242-42b9-b5d4-cb9ed23804ac-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1498132033897' status='passed' stop='1498132034641'>
+                    <name>GET /wd/hub/session/324dbc2b3cdc46d68a33b1a8e26c30c4/title</name>
+                    <title>GET /wd/hub/session/324dbc2b3cdc46d68a33b1a8e26c30c4/title</title>
+                    <attachments>
+                        <attachment title='Response' source='11a1821d-f74f-4730-ac13-c221369bb8b7-attachment.json' type='application/json' size='202'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>'Grand Western Steaks Grand Western Steaks - The Steak of Steaks: Buy USDA Prime, Wagyu, Grass Fed, and Angus Beef' == 'Grand Western Steaks Grand Western Steaks - The Steak of Steaks: Buy USDA Prime, Wagyu, Grass Fed, and Angus Beef-test'</message>
+                <stack-trace>AssertionError: 'Grand Western Steaks Grand Western Steaks - The Steak of Steaks: Buy USDA Prime, Wagyu, Grass Fed, and Angus Beef' == 'Grand Western Steaks Grand Western Steaks - The Steak of Steaks: Buy USDA Prime, Wagyu, Grass Fed, and Angus Beef-test'
+                    at Context.&lt;anonymous> (c:\webdriverIO\wdio-web-sample\test\GWS.js:14:16)
+                    at c:\webdriverIO\wdio-web-sample\node_modules\wdio-sync\build\index.js:584:26
+                    at Promise.F (c:\webdriverIO\wdio-web-sample\node_modules\core-js\library\modules\_export.js:35:28)
+                    at Context.executeSync (c:\webdriverIO\wdio-web-sample\node_modules\wdio-sync\build\index.js:582:12)
+                    at c:\webdriverIO\wdio-web-sample\node_modules\wdio-sync\build\index.js:753:42</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
