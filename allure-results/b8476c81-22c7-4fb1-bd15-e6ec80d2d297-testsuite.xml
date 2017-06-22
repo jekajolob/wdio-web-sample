@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1498059847150' stop='1498059858459'>
+    <name>General Magento Test</name>
+    <title>General Magento Test</title>
+    <test-cases>
+        <test-case start='1498059847151' status='passed' stop='1498059848371'>
+            <name>"before all" hook</name>
+            <title>"before all" hook</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1498059847158' status='passed' stop='1498059848364'>
+                    <name>POST /wd/hub/session/7e6b1fa2-64f0-4378-a6e6-0cd0209acdad/window/current/maximize</name>
+                    <title>POST /wd/hub/session/7e6b1fa2-64f0-4378-a6e6-0cd0209acdad/window/current/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='85ed6d8e-5bee-4652-80f6-24605a8dc03c-attachment.json' type='application/json' size='195'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1498059848373' status='passed' stop='1498059858457'>
+            <name>Correct Title! @watch</name>
+            <title>Correct Title! @watch</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\webdriverio\\wdio-web-sample\\test\\GWS.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1498059848379' status='passed' stop='1498059858348'>
+                    <name>POST /wd/hub/session/7e6b1fa2-64f0-4378-a6e6-0cd0209acdad/url</name>
+                    <title>POST /wd/hub/session/7e6b1fa2-64f0-4378-a6e6-0cd0209acdad/url</title>
+                    <attachments>
+                        <attachment title='Request' source='928c9348-d893-44c0-a633-b7a42578ab62-attachment.json' type='application/json' size='48'/>
+                        <attachment title='Response' source='f22c78fb-2924-44e3-80ff-119f2f55b7bf-attachment.json' type='application/json' size='195'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1498059858364' status='passed' stop='1498059858454'>
+                    <name>GET /wd/hub/session/7e6b1fa2-64f0-4378-a6e6-0cd0209acdad/title</name>
+                    <title>GET /wd/hub/session/7e6b1fa2-64f0-4378-a6e6-0cd0209acdad/title</title>
+                    <attachments>
+                        <attachment title='Response' source='24b8335a-5f03-456c-9f7c-a19717d51676-attachment.json' type='application/json' size='307'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

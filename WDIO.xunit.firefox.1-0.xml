@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="general_magento_test" timestamp="2017-06-21T14:22:18" time="8.747" tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="general_magento_test" timestamp="2017-06-21T18:44:24" time="10.635" tests="1" failures="0" errors="0" skipped="0">
     <properties>
-      <property name="specId" value="21dc2b6ba771ddb0481200b56b0b9ff4"/>
+      <property name="specId" value="9d2ec02a2d6acb7f6e05329b59ad1e53"/>
       <property name="suiteName" value="General Magento Test"/>
       <property name="capabilities" value="firefox"/>
       <property name="file" value=".\test\GWS.js"/>
     </properties>
-    <testcase classname="firefox.general_magento_test" name="correct_title_watch" time="8.662">
+    <testcase classname="firefox.general_magento_test" name="correct_title_watch" time="10.529">
       <system-out>
         <![CDATA[
-COMMAND: POST http://127.0.0.1:4444/wd/hub/session/918ed798-0f81-4107-b906-3b73b7129ff0/url - {"url":"https://grandwesternsteaks.com/"}
-RESULT: {"state":"success","sessionId":"918ed798-0f81-4107-b906-3b73b7129ff0","hCode":484015984,"value":null,"class":"org.openqa.selenium.remote.Response","status":0}
-COMMAND: GET http://127.0.0.1:4444/wd/hub/session/918ed798-0f81-4107-b906-3b73b7129ff0/title - {}
-RESULT: {"state":"success","sessionId":"918ed798-0f81-4107-b906-3b73b7129ff0","hCode":461578940,"value":"Grand Western Steaks Grand Western Steaks - The Steak of Steaks: Buy USDA Prime, Wagyu, Grass Fed, and Angus Beef","class":"org.openqa.selenium.remote.Response","status":0}
-COMMAND: DELETE http://127.0.0.1:4444/wd/hub/session/918ed798-0f81-4107-b906-3b73b7129ff0 - {}
-RESULT: {"state":"success","sessionId":"918ed798-0f81-4107-b906-3b73b7129ff0","hCode":973578053,"value":null,"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/b232fc04-426a-44d3-827a-039c066a5a44/url - {"url":"https://grandwesternsteaks.com/"}
+RESULT: {"state":"success","sessionId":"b232fc04-426a-44d3-827a-039c066a5a44","hCode":1710488581,"value":null,"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/b232fc04-426a-44d3-827a-039c066a5a44/title - {}
+RESULT: {"state":"success","sessionId":"b232fc04-426a-44d3-827a-039c066a5a44","hCode":1821701667,"value":"Grand Western Steaks Grand Western Steaks - The Steak of Steaks: Buy USDA Prime, Wagyu, Grass Fed, and Angus Beef","class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: DELETE http://127.0.0.1:4444/wd/hub/session/b232fc04-426a-44d3-827a-039c066a5a44 - {}
+RESULT: {"state":"success","sessionId":"b232fc04-426a-44d3-827a-039c066a5a44","hCode":353300109,"value":null,"class":"org.openqa.selenium.remote.Response","status":0}
 ]]>
       </system-out>
     </testcase>
