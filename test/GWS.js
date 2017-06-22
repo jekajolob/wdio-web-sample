@@ -11,7 +11,7 @@ describe('General Magento Test', function() {
     // expect(browser.getTitle()).to.contain('Grand Western Steaks Grand Western Steaks - The Steak of Steaks: Buy USDA Prime, Wagyu, Grass Fed, and Angus Beef');
 
         var title = browser.getTitle();
-        assert.equal(title, 'Grand Western Steaks Grand Western Steaks - The Steak of Steaks: Buy USDA Prime, Wagyu, Grass Fed, and Angus Beef-test');
+        assert.equal(title, 'Grand Western Steaks Grand Western Steaks - The Steak of Steaks: Buy USDA Prime, Wagyu, Grass Fed, and Angus Beef');
 });
 
 
